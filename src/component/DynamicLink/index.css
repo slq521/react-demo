@@ -1,5 +1,5 @@
 .active {
+  color: #f00;
   font-size: 16px;
-  color: #f0f;
-  background-color: #0f0;
+  border: 0;
 }

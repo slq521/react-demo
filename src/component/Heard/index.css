@@ -1,0 +1,10 @@
+.heard {
+  height: 60px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.heard-line {
+  padding: 0 24px;
+}

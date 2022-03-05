@@ -10,8 +10,8 @@ const DynamicLink = (props) => {
   })
 
   return (
-    <div className={match?.isExact ? 'active' : ''}>
-      <Link to={to}>{text}</Link>
+    <div>
+      <Link className={match?.isExact ? 'active' : ''} to={to}>{text}</Link>
     </div>
   )
 }
